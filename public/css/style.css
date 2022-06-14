@@ -42,14 +42,8 @@ font-family: 'Open Sans', sans-serif;
 color: #fff;
 text-align: center;
 font-size: 50px;
-font-weight: 300;
-margin: 0 0 10px 0;
-}
-
-
-h1 strong{
-font-size: 38px;
 font-weight: 700;
+margin: 0 0 10px 0;
 }
 
 h2{
@@ -102,6 +96,11 @@ color: #ffffff;
 float: left;
 padding: 15px;
 margin-bottom: 15px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
 }
 
 @media only screen and (max-device-width: 420px)  {

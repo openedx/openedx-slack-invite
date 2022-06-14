@@ -1,5 +1,5 @@
 doctype html
-html
+html(lang="en")
   head
     meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
@@ -10,13 +10,12 @@ html
     #wrapper
       .main
         .header
-          h1
-            strong #{community}
+          h1 #{community}
           h2 Enter your email below to join #{community} on slack!
         .content
           .information
             form(method="POST", action="/invite")#join-form.form
-              input(type="text", name="email", placeholder="Enter Your Email Address")#slack-email.field
+              input(type="text", name="email", placeholder="Enter Your Email Address" aria-label="Enter Your Email Address")#slack-email.field
               if tokenRequired
                 input(type="text", name="token", placeholder="Enter the invite token you were given")#slack-token.field
               input(type="submit", value="Join").submit
