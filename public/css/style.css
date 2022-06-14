@@ -42,14 +42,8 @@ font-family: 'Open Sans', sans-serif;
 color: #fff;
 text-align: center;
 font-size: 50px;
-font-weight: 300;
-margin: 0 0 10px 0;
-}
-
-
-h1 strong{
-font-size: 38px;
 font-weight: 700;
+margin: 0 0 10px 0;
 }
 
 h2{
