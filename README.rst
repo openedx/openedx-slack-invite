@@ -1,6 +1,9 @@
 openedx-slack-invite
 ####################
 
+🛑🛑🛑 This repo is no longer used for granting slack invites.  Instead go to https://openedx.org/slack 🛑🛑🛑
+
+
 This app used to be a slack invite app based on
 https://github.com/outsideris/slack-invite-automation
 
